@@ -97,10 +97,6 @@ button:hover {
 }
 
 @media only screen and (max-width: 600px) {
-    .container{
-        overflow: scroll;
-        flex-direction: column;
-    }
     .card > * {
         flex: 1;
     }
@@ -108,7 +104,7 @@ button:hover {
         flex-direction: column;
         max-width: 90%;
         height: fit-content;
-        margin-top: 1em;
+        margin: 1em 0 1em 0;
     }
     .img-mobile{
         display: block;
