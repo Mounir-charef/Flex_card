@@ -5,7 +5,7 @@
     margin: 0;
 }
 .container{
-    height: 100vh;
+    min-height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -16,11 +16,13 @@
     background-color: hsl(0, 0%, 100%);
     display: flex;
     flex-shrink: 1;
-    width: 42%;
+    max-width: 42%;
     height: 70vh;
     border-radius: 10px;
 }
-
+.img-mobile{
+    display: none;
+}
 .child{
     flex: 1;
     border-radius: 10px 0 0 10px;
@@ -104,10 +106,19 @@ button:hover {
     }
     .card{
         flex-direction: column;
-        width: 90%;
+        max-width: 90%;
+        height: fit-content;
     }
-    .child{
-        flex: 1;
-        border-radius: 10px 10px 10px 10px;
+    .img-mobile{
+        display: block;
     }
+    .img-browser{
+        display: none;
+    }
+    /*img {*/
+    /*    flex-basis: 40%;*/
+    /*}*/
+    /*.main {*/
+    /*    flex-basis: 60%;*/
+    /*}*/
 }
