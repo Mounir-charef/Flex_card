@@ -106,10 +106,8 @@ button:hover {
         flex-direction: column;
         width: 90%;
     }
-    /*img {*/
-    /*    flex-basis: 40%;*/
-    /*}*/
-    /*.main {*/
-    /*    flex-basis: 60%;*/
-    /*}*/
+    .child{
+        flex: 1;
+        border-radius: 10px 10px 10px 10px;
+    }
 }
