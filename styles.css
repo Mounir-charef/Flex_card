@@ -108,6 +108,7 @@ button:hover {
         flex-direction: column;
         max-width: 90%;
         height: fit-content;
+        margin-top: 1em;
     }
     .img-mobile{
         display: block;
@@ -115,10 +116,7 @@ button:hover {
     .img-browser{
         display: none;
     }
-    /*img {*/
-    /*    flex-basis: 40%;*/
-    /*}*/
-    /*.main {*/
-    /*    flex-basis: 60%;*/
-    /*}*/
+    .child {
+        border-radius: 10px;
+    }
 }
