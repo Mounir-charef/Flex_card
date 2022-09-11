@@ -16,7 +16,7 @@
     background-color: hsl(0, 0%, 100%);
     display: flex;
     flex-shrink: 1;
-    max-width: 42%;
+    max-width: 40rem;
     height: 70vh;
     border-radius: 10px;
 }
@@ -86,6 +86,7 @@ button {
     font-size: 14px;
     border-radius: 0.5rem;
     color: hsl(0, 0%, 100%);
+    transition: ease-in-out 0.3s;
     cursor: pointer;
 }
 .txt {
@@ -94,9 +95,10 @@ button {
 
 button:hover {
     background-color: hsl(155, 37%, 18%);
+    transition: ease-in-out 0.3s;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 41rem) {
     .card > * {
         flex: 1;
     }
