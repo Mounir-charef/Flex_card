@@ -16,8 +16,10 @@
 <body>
   <main class="container">
     <div class="card">
-      <img class='child img-browser' src="images/image-product-desktop.jpg" alt="produit">
-      <img class='child img-mobile' src="images/image-product-mobile.jpg" alt="produit">
+      <picture>
+        <source media="(max-width: 41rem)" srcset="images/image-product-mobile.jpg">
+        <img class="child img" src="images/image-product-desktop.jpg" alt="Product">
+      </picture>
 
       <div class="main child">
         <p class="title">PERFUME</p>
