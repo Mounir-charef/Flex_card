@@ -22,7 +22,7 @@
 }
 
 .child{
-    flex: 1;
+    max-width: 50%;
     border-radius: 10px 0 0 10px;
 }
 
@@ -114,6 +114,7 @@ button:hover {
         margin: 1em 0 1em 0;
     }
     .child {
+        max-width: 100%;
         border-radius: 10px;
     }
 }
