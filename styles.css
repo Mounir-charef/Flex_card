@@ -16,7 +16,7 @@
     background-color: hsl(0, 0%, 100%);
     display: flex;
     flex-shrink: 1;
-    max-width: 40rem;
+    max-width: 36rem;
     height: 60vh;
     border-radius: 10px;
 }
